@@ -26,7 +26,30 @@ docker -v
 ```
 <br>
 Pull image
-
 ```powershell
 docker pull [ImageName]
+```
+
+<br>
+Pull image with version
+```powershell
+docker pull [ImageName]:version
+```
+
+<br>
+See all the images
+```powershell
+docker images
+```
+
+<br>
+See all the images
+```powershell
+docker images
+```
+
+<br>
+Search images
+```powershell
+docker search [ImageName]
 ```
