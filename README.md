@@ -71,7 +71,6 @@ docker run [ImageID]
 ```
 
 <br>
-
 Show the created container
 
 ```powershell
@@ -79,7 +78,6 @@ docker ps -a
 ```
 
 <br>
-
 Run at detached mode or create container and run
 
 ```powershell
@@ -88,7 +86,6 @@ docker run --name [ContainerName] -d [ImageName]/[ImageID]
 ```
 
 <br>
-
 Run image at backgroud 
 
 ```powershell
@@ -96,7 +93,6 @@ docker run --name [ContainerName] -it -d [ImageName]/[ImageID]
 ```
 
 <br>
-
 Execute inside container with example run command of python3
 
 ```powershell
