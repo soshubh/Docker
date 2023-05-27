@@ -61,3 +61,27 @@ Search images
 ```powershell
 docker search [ImageName]
 ```
+
+<br>
+Run an image 
+
+```powershell
+docker run [ImageName]
+docker run [ImageID]
+```
+
+<br>
+
+Show the created container
+```powershell
+docker ps -a
+```
+
+<br>
+
+Run at background container or create and run
+```powershell
+docker run -d [ImageName]
+docker run --name [ContainerName] -d [ImageName]/[ImageID]
+```
+
