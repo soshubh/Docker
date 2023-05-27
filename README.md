@@ -100,7 +100,7 @@ docker exec -it [ID] Python3
 ```
 
 <br>
-Rum mysql
+Run mysql
 
 ```powershell
 # Pull mysql
