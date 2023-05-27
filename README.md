@@ -133,3 +133,33 @@ Remove multiple container
 ```powershell
 docker rm CONTAINER1 CONTAINER2 CONTAINER3
 ```
+
+<br>
+Remove images
+
+```powershell
+docker rmi [ImageName]
+```
+
+<br>
+Remove multiple container
+
+```powershell
+docker rm CONTAINER1 CONTAINER2 CONTAINER3
+```
+
+<br>
+Restart container
+
+```powershell
+docker restart [ContainerName]/[ID]
+```
+
+---
+
+<br>
+Docker login(login at docker hub)/commit/push/copy/logs/volume/logout
+
+```powershell
+docker logs [ContainerName]/[ID]
+```
