@@ -98,3 +98,17 @@ Execute inside container with example run command of python3
 ```powershell
 docker exec -it [ID] Python3
 ```
+
+<br>
+Rum mysql
+
+```powershell
+# Pull mysql
+docker pull mysql
+
+# Use this image
+docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+
+# Connect to MySQL from the MySQL command line client
+docker run -it --network some-network --rm mysql mysql -hsome-mysql -uexample-user -p
+```
