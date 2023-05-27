@@ -19,12 +19,14 @@ docker is a platform which packages and application and all its dependencies tog
 <img src="Docker/0_CP98BIIBgMG2K3u5.png" width="500">
 </p>
 <br>
-Check the version 
+Check the version
+
 ```powershell
 docker -v
 ```
 <br>
 Pull image
+
 ```powershell
 docker pull [ImageName]
 ```
