@@ -86,7 +86,7 @@ docker run --name [ContainerName] -d [ImageName]/[ImageID]
 ```
 
 <br>
-Run image at backgroud 
+Run image at backgroud in interactive mode)-it
 
 ```powershell
 docker run --name [ContainerName] -it -d [ImageName]/[ImageID]
