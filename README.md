@@ -92,3 +92,9 @@ Run image at backgroud
 docker run --name [ContainerName] -it -d [ImageName]/[ImageID]
 ```
 
+<br>
+
+Execute inside container with example run command of python3
+```powershell
+docker exec -it [ID] Python3
+```
