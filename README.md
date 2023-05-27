@@ -79,9 +79,16 @@ docker ps -a
 
 <br>
 
-Run at background container or create and run
+Run at detached mode or create container and run
 ```powershell
 docker run -d [ImageName]
 docker run --name [ContainerName] -d [ImageName]/[ImageID]
+```
+
+<br>
+
+Run image at backgroud 
+```powershell
+docker run --name [ContainerName] -it -d [ImageName]/[ImageID]
 ```
 
