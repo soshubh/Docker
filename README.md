@@ -2,6 +2,8 @@
 <img src="Docker/Docker_(container_engine)_logo.svg" width="700">
 </p>
 
+
+
 **Docker is an open platform for developing, shipping, and running applications.**
 
 docker is a platform which packages and application and all its dependencies together in the form of container.
