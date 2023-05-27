@@ -1,5 +1,5 @@
 <p align="center">
-<img src="Docker/Docker_(container_engine)_logo.svg" width="800">
+<img src="Docker/Docker_(container_engine)_logo.svg" width="700">
 </p>
 
 **Docker is an open platform for developing, shipping, and running applications.**
